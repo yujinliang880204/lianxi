@@ -21,8 +21,8 @@ driver.find_element_by_link_text(u"保存设置").click()
 
 result=driver.switch_to_alert().text
 if result==u'已经记录下您的使用偏好':
-    print 'a'
+    print 'aa'
 else:
-    print 'b'
+    print 'bb'
 
 driver.quit()
